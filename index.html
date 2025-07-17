@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="mainHeader">
+  <h1><span class="typewriter-text"></span></h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="darkModeToggle" title="Toggle Dark Mode">🌓</button>
+</header>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>    I'm Panashe Nkume, a dedicated and detail-oriented web developer with a strong passion for creating elegant, responsive, and user-centered digital experiences. I specialize in front-end technologies like HTML, CSS, and JavaScript, and I’m constantly exploring new ways to blend design with functionality. My goal is to craft clean code and beautiful interfaces that leave a lasting impression. </p>
+  </section>
+
+  <section id="projects">
+  <h2>My Projects</h2>
+  <div class="project-container">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A clean, personal portfolio site built using HTML, CSS, and JavaScript.</p>
+      <a href="#" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>Fetches live weather using APIs and displays it in a beautiful UI.</p>
+      <a href="#" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>To-Do List</h3>
+      <p>A simple to-do app to manage daily tasks with local storage.</p>
+      <a href="#" target="_blank">View Project</a>
+    </div>
+  </div>
+</section>
+
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>C#</li>
+      <li>C++</li>
+      <li>C</li>
+      <li>MySQL</li>
+      <li>SQL </li>
+      <li>Data Structures</li>
+      <li>Object Oriented Programming</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="formStatus"></p>
+  </form>
+</section>
+
+<!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">⬆️</button>
+
+<footer>
+  <p>© 2025 Panashe Nkume</p>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
